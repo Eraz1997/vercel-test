@@ -11,3 +11,4 @@ venv/
 .coverage
 *.DS_STORE
 *.egg-info/
+.vercel

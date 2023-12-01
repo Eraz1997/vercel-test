@@ -8,3 +8,5 @@ def create_api_app() -> FastAPI:
     app.include_router(create_public_v1_test_api_router())
 
     return app
+
+app = create_api_app()

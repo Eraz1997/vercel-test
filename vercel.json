@@ -1,5 +1,5 @@
 {
-    "buildCommand": "",
+    "buildCommand": "poetry -C backend install",
     "builds": [
       {"src": "backend/backend/main.vercel.py", "use": "@vercel/python"}
     ],

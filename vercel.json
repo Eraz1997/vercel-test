@@ -1,5 +1,5 @@
 {
-    "buildCommand": "poetry -C backend install",
+    "buildCommand": "curl -sSL https://install.python-poetry.org | python3 - && poetry -C backend install",
     "installCommand": "poetry -C backend install",
     "routes": [
       {"src": "/(.*)", "dest": "backend/backend/main.vercel.py"}
